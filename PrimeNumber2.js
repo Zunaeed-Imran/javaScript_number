@@ -1,8 +1,5 @@
 let p = prompt("Enter a Number to see prime or not: ");
 
-let pr;
-let n;
-
 for (let i = 2; i < p; i++){
   if (p % i != 0) {
     document.write(p + " is Prime Number.");
